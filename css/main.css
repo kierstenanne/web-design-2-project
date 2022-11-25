@@ -1,0 +1,205 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FEDEE5;
+}
+
+.navbar {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #E1889F;
+  padding: 1em 2.5em;
+  font-size: 1.5rem;
+  font-family: 'Philosopher';
+  font-style: italic;
+  font-weight: 400;
+  color: #FFFFFF;
+  position: fixed;
+  z-index: 2;
+}
+
+.logo {
+  height: 3em;
+}
+
+.links {
+  float: right;
+  line-height: 3em;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links li {
+  display: inline;
+  padding-left: 1.5em;
+}
+
+.links li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.links li a:hover {
+  text-decoration: underline;
+  color: #C6465E;
+}
+
+.banner {
+  background: #E89EAF;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-body {
+  box-sizing: border-box;
+  width: 55%;
+  font-size: 4rem;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  color: #FEDEE5;
+  padding: 1em 1.5em;
+}
+
+.banner-body .description {
+  padding-bottom: 0.5em;
+}
+
+.banner-body a {
+  font-size: 3rem;
+  padding: 0.3em 0.7em;
+  background-color: #E26384;
+  border-radius: 1rem;
+  color: #FEDEE5;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.banner-body a:hover {
+  background-color: #b9546f;
+}
+
+.sidenote {
+  position: absolute;
+  background-color: #E26384;
+  right: 5em;
+  bottom: 0;
+  width: 20%;
+  font-size: 2.5rem;
+  padding: 1em;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  z-index: 1;
+}
+
+.sidenote h3{
+  color: #ffffff;
+}
+
+.sidenote-shadow {
+  position: absolute;
+  background-color: #F7A8BA;
+  font-size: 2.5rem;
+  right: 4em;
+  bottom: 4.3em;
+  width: 25%;
+  height: 25%;
+}
+
+.featured {
+  height: 100vh;
+}
+
+.featured-donuts a:hover {
+  background-color: #FEDEE5;
+}
+
+.description{
+  color: #f5f5f5;
+  padding: 0.3em 0.7em;
+  font-weight: 400;
+  border-radius: 1rem;
+  padding-bottom: 0.5em;
+}
+
+.featured-donuts {
+  padding-bottom: 0.5em;
+  font-size: 4rem;
+  padding: 1.5em 1.5em;
+  font-weight: 400;
+  color: #E26384;
+}
+
+.top-pick{
+  padding-bottom: 0.5em;
+  font-size: 4rem;
+  padding: 1.5em 1.5em;
+  font-weight: 400;
+  color: #E26384;
+}
+
+.top-pick-right{
+
+}
+h1 {
+  color: #EE4C98;
+}
+
+p {
+  color: #ffffff;
+}
+
+H2 {
+  color: #000000;
+}
+
+H3 {
+  color: #000000;
+  font-weight: bold;
+}
+
+h4{
+  color: #C6465E;
+  font-size: 200%
+  padding: 1.5em 1.5em;
+  font-weight: lighter;
+}
+
+.social{
+  color: #C6465f;
+  font-size: 6rem;
+  padding: 1.5em 1.5em;
+  padding-bottom: 0.5em;
+  font-family: 'Luckiest Guy';
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+footer{
+  position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: #111;
+   height: auto;
+   width: 100vw;
+   padding-top: 40px;
+   color: #FEF3D0
+}
+
+.instagram {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding-bottom: 5em;
+}
