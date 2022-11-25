@@ -200,7 +200,8 @@ footer{
 }
 
 .responsive{
-  max-width: 800px;
+  max-width: 500px;
+  max-height: 100px;
 }
 
 
