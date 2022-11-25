@@ -1,3 +1,5 @@
+
+/* home page */
 html,
 body {
   margin: 0;
@@ -202,4 +204,155 @@ footer{
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   padding-bottom: 5em;
+}
+
+
+
+/* menu page */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #FFEFF3;
+}
+
+.navbar {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #E1889F;
+    padding: 1em 2.5em;
+    font-size: 1.5rem;
+    font-family: 'Philosopher';
+    font-style: italic;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: fixed;
+    z-index: 2;
+}
+
+.logo {
+    height: 3em;
+}
+
+.links {
+    float: right;
+    line-height: 3em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    display: inline;
+    padding-left: 1.5em;
+}
+
+.links li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.links li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background: #FFEFF3;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+{
+  background-color: #FFEFF3;
+}
+
+.month{
+      padding-bottom: 0.5em;
+      font-size: 4rem;
+      padding: 1.5em 1.5em;
+      font-weight: 400;
+      color: #E26384;
+      font-family: 'Philosopher';
+}
+
+/* locations page */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: #FEDEE5
+}
+
+.navbar {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #E1889F;
+    padding: 1em 2.5em;
+    font-size: 1.5rem;
+    font-family: 'Philosopher';
+    font-style: italic;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: fixed;
+    z-index: 2;
+}
+
+.logo {
+    height: 3em;
+}
+
+.links {
+    float: right;
+    line-height: 3em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    display: inline;
+    padding-left: 1.5em;
+}
+
+.links li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.links li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    /* background: #E89EAF; */
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.locations{
+  padding-bottom: 0.5em;
+  font-size: 4rem;
+  padding: 1.5em 1.5em;
+  font-weight: 400;
+  color: #E26384;
+}
+
+.contact h2{
+  color: #E06384;
+}
+
+.contact a:hover {
+  background-color: #b9546f;
 }
