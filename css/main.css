@@ -200,9 +200,10 @@ footer{
 }
 
 .responsive{
-  max-width: 700px;
-  max-height: 600px;
+  max-width: 500px;
+  max-height: 300px;
   align-items: center;
+  align-content: center;
 }
 
 
