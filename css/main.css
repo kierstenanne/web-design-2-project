@@ -196,8 +196,12 @@ footer{
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   padding-bottom: 5em;
+  max-width: 50px;
 }
 
+.responsive{
+  max-width: 800px;
+}
 
 
 /* menu page */
