@@ -357,23 +357,6 @@ background-color: #FEDEE5
 }
 
 
-/* media quiery  */
-/* @media (min-width: 38em) { */
-    /* header {
-      gap: 3rem;
-      padding: 0;
-    } */
-
-
-
-/* @media (max-width: 680px) {
-    .wrapper{
-        position: relative;
-        top: 0;
-        left: 0;
-    } */
-
-    /* nav is hidden in mobile */
     html {
   /* content stays within the screen by default */
   box-sizing: border-box;
@@ -417,6 +400,3 @@ background-color: #FEDEE5
         display: block;
       }
     }
-    <span class="material-icons-outlined">
-menu
-</span>
