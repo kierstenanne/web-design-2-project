@@ -358,44 +358,33 @@ background-color: #FEDEE5
 
 
     html {
-  /* content stays within the screen by default */
   box-sizing: border-box;
 }
-/* adding above property to all the elements by default */
 * {
   box-sizing: inherit;
 }
 
-/* default size - mobile - less than 768px */
 
     nav {
       display: none;
     }
-    /* input has a class of .nav-toggle and display is set to none */
     input.nav-toggle {
       display: none;
     }
-    /* All elements have pseudo state, the :checked state is used for this example*/
-    /* if input.nav-toggle is checked then display the nav */
-    input.nav-toggle:checked ~ nav {
+
       display: block;
     }
-    /* display the label in mobile that has our hamburgur menu  */
     label.nav-toggle-label {
       display: block;
     }
 
-    /* Use this styling for anything above 768px*/
     @media screen and (min-width: 768px) {
-    /*  make the input hidden on screens above 768px (desktop and tablet) */
       input.nav-toggle {
         display: none;
       }
-      /*  make the label hidden on screens above 768px (desktop and tablet) */
       label.nav-toggle-label {
         display: none;
       }
-    /*  display the nav  on screens above 768px (desktop and tablet) */
       nav {
         display: block;
       }
