@@ -357,6 +357,8 @@ background-color: #FEDEE5
 }
 
 
+/* hamburger menu */
+
     html {
   box-sizing: border-box;
 }
@@ -388,4 +390,3 @@ background-color: #FEDEE5
       nav {
         display: block;
       }
-    }
