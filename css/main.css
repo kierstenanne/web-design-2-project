@@ -356,6 +356,19 @@ body {
   background-color: #b9546f;
 }
 
+.contact-us{
+  width: 60%;
+  height:auto;
+  background-color: #FDC3D2;
+  right: 5em;
+  bottom: 0;
+  padding: 1em;
+  color: #E26384;
+  align-content: center;
+  margin: 0 auto;
+}
+
+
 
 /* hamburger menu */
 
