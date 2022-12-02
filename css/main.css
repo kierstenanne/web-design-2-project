@@ -188,7 +188,7 @@ h4{
 }
 
 footer{
-   background: #FEF3D0;
+  background: #FEF3D0;
 }
 
 .instagram {
@@ -211,133 +211,133 @@ footer{
 
 html,
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body{
   background-color: #FFEFF3;
 }
 
 .navbar {
-    box-sizing: border-box;
-    width: 100%;
-    background-color: #E1889F;
-    padding: 1em 2.5em;
-    font-size: 1.5rem;
-    font-family: 'Philosopher';
-    font-style: italic;
-    font-weight: 400;
-    color: #FFFFFF;
-    position: fixed;
-    z-index: 2;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #E1889F;
+  padding: 1em 2.5em;
+  font-size: 1.5rem;
+  font-family: 'Philosopher';
+  font-style: italic;
+  font-weight: 400;
+  color: #FFFFFF;
+  position: fixed;
+  z-index: 2;
 }
 
 .logo {
-    height: 3em;
+  height: 3em;
 }
 
 .links {
-    float: right;
-    line-height: 3em;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  float: right;
+  line-height: 3em;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .links li {
-    display: inline;
-    padding-left: 1.5em;
+  display: inline;
+  padding-left: 1.5em;
 }
 
 .links li a {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .links li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .banner {
-    background: #FFEFF3;
-    position: relative;
+  background: #FFEFF3;
+  position: relative;
 }
 
 .banner img {
-    width: 100%;
+  width: 100%;
 }
 {
   background-color: #FFEFF3;
 }
 
 .month{
-      padding-bottom: 0.5em;
-      font-size: 4rem;
-      padding: 1.5em 1.5em;
-      font-weight: 400;
-      color: #E26384;
-      font-family: 'Philosopher';
+  padding-bottom: 0.5em;
+  font-size: 4rem;
+  padding: 1.5em 1.5em;
+  font-weight: 400;
+  color: #E26384;
+  font-family: 'Philosopher';
 }
 
 /* locations page */
 
 html,
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-background-color: #FEDEE5
+  background-color: #FEDEE5
 }
 
 .navbar {
-    box-sizing: border-box;
-    width: 100%;
-    background-color: #E1889F;
-    padding: 1em 2.5em;
-    font-size: 1.5rem;
-    font-family: 'Philosopher';
-    font-style: italic;
-    font-weight: 400;
-    color: #FFFFFF;
-    position: fixed;
-    z-index: 2;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #E1889F;
+  padding: 1em 2.5em;
+  font-size: 1.5rem;
+  font-family: 'Philosopher';
+  font-style: italic;
+  font-weight: 400;
+  color: #FFFFFF;
+  position: fixed;
+  z-index: 2;
 }
 
 .logo {
-    height: 3em;
+  height: 3em;
 }
 
 .links {
-    float: right;
-    line-height: 3em;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  float: right;
+  line-height: 3em;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .links li {
-    display: inline;
-    padding-left: 1.5em;
+  display: inline;
+  padding-left: 1.5em;
 }
 
 .links li a {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .links li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .banner {
-    /* background: #E89EAF; */
-    position: relative;
+  /* background: #E89EAF; */
+  position: relative;
 }
 
 .banner img {
-    width: 100%;
+  width: 100%;
 }
 
 .locations{
@@ -359,7 +359,7 @@ background-color: #FEDEE5
 
 /* hamburger menu */
 
-    html {
+html {
   box-sizing: border-box;
 }
 * {
@@ -367,26 +367,26 @@ background-color: #FEDEE5
 }
 
 
-    nav {
-      display: none;
-    }
-    input.nav-toggle {
-      display: none;
-    }
+nav {
+  display: none;
+}
+input.nav-toggle {
+  display: none;
+}
 
-      display: block;
-    }
-    label.nav-toggle-label {
-      display: block;
-    }
+display: block;
+}
+label.nav-toggle-label {
+  display: block;
+}
 
-    @media screen and (min-width: 768px) {
-      input.nav-toggle {
-        display: none;
-      }
-      label.nav-toggle-label {
-        display: none;
-      }
-      nav {
-        display: block;
-      }
+@media screen and (min-width: 768px) {
+  input.nav-toggle {
+    display: none;
+  }
+  label.nav-toggle-label {
+    display: none;
+  }
+  nav {
+    display: block;
+  }
