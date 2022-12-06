@@ -346,6 +346,11 @@ body{
   font-weight: bold;
 }
 
+.maple-drizzle img{
+max-width: 150px;
+max-height:150px;
+}
+
 .cookies-n-cream{
   background-color: #ECD48C;
   display: flex;
@@ -362,8 +367,12 @@ body{
 .cookies-n-cream p{
   color: #000;
   font-weight: bold;
-
 }
+.cookies-n-cream img{
+max-width: 150px;
+max-height:150px;
+}
+
 .rainbow{
   background-color: #EDC0D5;
   display: flex;
@@ -382,6 +391,12 @@ body{
   font-weight: bold;
 }
 
+.rainbow img{
+max-width: 150px;
+max-height:150px;
+}
+
+
 .mnm{
   background-color: #AFCBB2;
   display: flex;
@@ -398,6 +413,11 @@ body{
 .mnm p{
   color: #000;
   font-weight: bold;
+}
+
+.mnm img{
+max-width: 150px;
+max-height:150px;
 }
 /* locations page */
 
