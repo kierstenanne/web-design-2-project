@@ -7,10 +7,14 @@ body {
 }
 
 body {
-  background-color: #FEDEE5;
+  background-color: #E89EAF;
 }
 
-.navbar {
+/* main{
+  background-color: #E89EAF;
+} */
+
+nav {
   box-sizing: border-box;
   width: 100%;
   background-color: #E1889F;
@@ -52,8 +56,9 @@ body {
 }
 
 .banner {
-  background: #E89EAF;
+  /* background color: #E26384; */
   position: relative;
+  background: #E89EAF;
 }
 
 .banner img {
@@ -69,10 +74,12 @@ body {
   font-weight: 700;
   color: #FEDEE5;
   padding: 1em 1.5em;
+  background-color: #E89EAF;
 }
 
 .banner-body .description {
   padding-bottom: 0.5em;
+  background-color: #E89EAF;
 }
 
 .banner-body a {
@@ -83,6 +90,7 @@ body {
   color: #FEDEE5;
   text-decoration: none;
   transition: 0.3s;
+  background-color: #E89EAF;
 }
 
 .banner-body a:hover {
@@ -136,7 +144,7 @@ body {
 
 .featured-donuts {
   padding-bottom: 0.5em;
-  font-size: 4rem;
+  font-size: 2rem;
   padding: 1.5em 1.5em;
   font-weight: 400;
   color: #E26384;
@@ -150,9 +158,14 @@ body {
   color: #E26384;
 }
 
-.top-pick-right{
-
+.top-pick-right h2{
+font-size: 2rem;
 }
+
+.top-pick-right h3{
+font-size: 1.5rem;
+}
+
 h1 {
   color: #EE4C98;
 }
@@ -368,7 +381,23 @@ body {
   margin: 0 auto;
 }
 
+.locations{
+  font-size: 1.5rem;
+margin-left: 5rem;
+text-align: center;
+}
 
+.locations h2{
+  font-size: 3.5rem;
+  color: #E26384;
+  text-align: center;
+}
+
+.sweets{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
 
 /* hamburger menu */
 
