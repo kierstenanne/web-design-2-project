@@ -310,6 +310,22 @@ body{
   max-width: 50%;
   border-radius: 3em;
 }
+
+.add-button{
+  font-size: 3rem;
+  padding: 0.3em 0.7em;
+  background-color: #E26384;
+  border-radius: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+  background-color: #E89EAF;
+}
+
+.add-button:hover {
+  background-color: #b9546f;
+}
+
 /* locations page */
 
 html,
@@ -422,6 +438,10 @@ text-align: center;
   text-align: center;
   padding-top: 1fr;
 }
+
+/* .donut-month a:hover {
+  background-color: #b9546f;
+} */
 
 .donut-description{
   text-align: left;
