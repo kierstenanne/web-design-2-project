@@ -509,7 +509,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Lemon', cursive;
 }
+
 
 .locations{
   font-size: 1.5rem;
