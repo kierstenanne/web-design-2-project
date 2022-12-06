@@ -291,6 +291,15 @@ body{
   color: #E26384;
   font-family: 'Philosopher';
 }
+.month-shadow {
+  position: absolute;
+  background-color: #C1DAE1;
+  font-size: 2.5rem;
+  right: 4em;
+  bottom: 4.3em;
+  width: 25%;
+  height: 25%;
+}
 
 /* locations page */
 
