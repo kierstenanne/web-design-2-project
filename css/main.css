@@ -290,8 +290,9 @@ body{
   font-weight: 400;
   color: #E26384;
   font-family: 'Philosopher';
+
 }
-.month-shadow {
+/* .month-shadow {
   position: absolute;
   background-color: #C1DAE1;
   font-size: 2.5rem;
@@ -299,8 +300,16 @@ body{
   bottom: 4.3em;
   width: 25%;
   height: 25%;
-}
+} */
 
+.seasonal{
+  background-color: #C1DAE1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  border-radius: 3em;
+}
 /* locations page */
 
 html,
@@ -406,6 +415,21 @@ text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
+}
+
+.donut-month{
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 1fr;
+}
+
+.donut-description{
+  text-align: left;
+}
+
+.donut-description p{
+font-size: 1.5rem;
+color: #F091AA;
 }
 
 /* hamburger menu */
