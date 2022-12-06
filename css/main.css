@@ -310,6 +310,9 @@ body{
   max-width: 50%;
   border-radius: 3em;
 }
+.seasonal h4{
+  font-family: 'Lemon', cursive;
+}
 
 .add-button{
   font-size: 3rem;
@@ -326,6 +329,76 @@ body{
   background-color: #b9546f;
 }
 
+.maple-drizzle{
+  background-color: #C1DAE1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  border-radius: 3em;
+}
+.maple-drizzle h4{
+  font-family: 'Lemon', cursive;
+}
+
+.maple-drizzle p{
+  color: #000;
+  font-weight: bold;
+}
+
+.cookies-n-cream{
+  background-color: #ECD48C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  border-radius: 3em;
+}
+
+.cookies-n-cream h4{
+  font-family: 'Lemon', cursive;
+}
+
+.cookies-n-cream p{
+  color: #000;
+  font-weight: bold;
+
+}
+.rainbow{
+  background-color: #EDC0D5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  border-radius: 3em;
+}
+
+.rainbow h4{
+  font-family: 'Lemon', cursive;
+}
+
+.rainbow p{
+  color: #000;
+  font-weight: bold;
+}
+
+.mnm{
+  background-color: #AFCBB2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  border-radius: 3em;
+}
+
+.mnm h4{
+  font-family: 'Lemon', cursive;
+}
+
+.mnm p{
+  color: #000;
+  font-weight: bold;
+}
 /* locations page */
 
 html,
@@ -413,6 +486,9 @@ body {
   color: #E26384;
   align-content: center;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .locations{
