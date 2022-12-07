@@ -28,6 +28,7 @@ nav {
   z-index: 2;
 }
 
+
 .logo {
   height: 3em;
 }
@@ -142,13 +143,21 @@ nav {
   padding-bottom: 0.5em;
 }
 
+.feat-donuts{
+  padding: 1.5em 1.5em;
+}
+
 .featured-donuts {
   padding-bottom: 0.5em;
   font-size: 2rem;
   padding: 1.5em 1.5em;
   font-weight: 400;
   color: #E26384;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
 }
+
 
 .top-pick{
   padding-bottom: 0.5em;
@@ -158,6 +167,16 @@ nav {
   color: #E26384;
 }
 
+.top-pick-right{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  border-radius: 3em;
+  border-color: #000;
+  align-content: right;
+}
 .top-pick-right h2{
 font-size: 2rem;
 }
@@ -165,6 +184,35 @@ font-size: 2rem;
 .top-pick-right h3{
 font-size: 1.5rem;
 }
+
+.sberry{
+  background-color: #F091AA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  border-radius: 3em;
+}
+
+.orangecream{
+  background-color: #FDBB83;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  border-radius: 3em;
+}
+
+.cookiem{
+  background-color: #AFDEE9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  border-radius: 3em;
+}
+
+
 
 h1 {
   color: #EE4C98;
@@ -210,13 +258,14 @@ footer{
   gap: 2rem;
   padding-bottom: 5em;
   max-width: 50px;
+  align-items: center;
 }
 
 .responsive{
   max-width: 500px;
   max-height: 300px;
   align-items: center;
-  align-content: center;
+  /* display: flex; */
 }
 
 
