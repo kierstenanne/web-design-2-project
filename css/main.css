@@ -132,7 +132,7 @@ nav {
 }
 
 .featured-donuts a:hover {
-  background-color: #FEDEE5;
+  /* background-color: #FEDEE5; */
 }
 
 .description{
@@ -155,7 +155,7 @@ nav {
   color: #E26384;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 
@@ -172,10 +172,11 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 50%;
+  max-width: 25%;
   border-radius: 3em;
   border-color: #000;
   align-content: right;
+  margin-left: 1200px;
 }
 .top-pick-right h2{
 font-size: 2rem;
@@ -191,8 +192,15 @@ font-size: 1.5rem;
   flex-direction: column;
   align-items: center;
   max-width: 50%;
+  height: 325%;
   border-radius: 3em;
+  padding-left: 2rem;
+  padding-right: 4rem;
 }
+  /* width: 25%;
+  height: 25%; */
+
+
 
 .orangecream{
   background-color: #FDBB83;
@@ -200,7 +208,10 @@ font-size: 1.5rem;
   flex-direction: column;
   align-items: center;
   max-width: 50%;
+  height: 325%;
   border-radius: 3em;
+  padding-left: 2rem;
+  padding-right: 4rem;
 }
 
 .cookiem{
@@ -209,6 +220,9 @@ font-size: 1.5rem;
   flex-direction: column;
   align-items: center;
   max-width: 50%;
+  height: 325%;
+  padding-left: 2rem;
+    padding-right: 4rem;
   border-radius: 3em;
 }
 
@@ -240,7 +254,7 @@ h4{
 
 .social{
   color: #C6465f;
-  font-size: 6rem;
+  font-size: 4rem;
   padding: 1.5em 1.5em;
   padding-bottom: 0.5em;
   font-family: 'Luckiest Guy';
@@ -254,17 +268,44 @@ footer{
 
 .instagram {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-auto-rows: 1fr 1fr; */
+  /* gap: 2rem; */
   padding-bottom: 5em;
+  padding-left: 20rem;
+  padding-right: 100rem;
   max-width: 50px;
-  align-items: center;
+  background-color: #f5f5f5;
+  /* align-content: center; */
+  /* justify-content: center; */
+  display: flex;
 }
 
 .responsive{
   max-width: 500px;
   max-height: 300px;
   align-items: center;
+  justify-content: center;
+  /* display: flex; */
+
+
+}
+.insta{
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  grid-auto-rows: 1fr 1fr;
+  gap: 2rem;
+  background-color: #f5f5f5;
+  align-content: center;
+  justify-content: center;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding-bottom: 4em;
+  padding: 100%;
+
+  /* display: flex; */
+
+}
   /* display: flex; */
 }
 
@@ -383,7 +424,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 50%;
+  max-width: 90%;
+  height: 125%;
   border-radius: 3em;
 }
 .maple-drizzle h4{
@@ -405,7 +447,8 @@ max-height:150px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 50%;
+  max-width: 90%;
+  height: 125%;
   border-radius: 3em;
 }
 
@@ -427,7 +470,8 @@ max-height:150px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 50%;
+  max-width: 90%;
+  height: 125%;
   border-radius: 3em;
 }
 
@@ -451,7 +495,8 @@ max-height:150px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 50%;
+  max-width: 90%;
+  height: 125%;
   border-radius: 3em;
 }
 
@@ -574,11 +619,6 @@ text-align: center;
   text-align: center;
 }
 
-.sweets{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
-}
 
 .donut-month{
   font-size: 4rem;
