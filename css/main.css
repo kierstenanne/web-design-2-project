@@ -226,7 +226,10 @@ font-size: 1.5rem;
   border-radius: 3em;
 }
 
-
+.featured-wrapper{
+  display: flex;
+  flex-direction: row;
+}
 
 h1 {
   color: #EE4C98;
@@ -427,6 +430,7 @@ body{
   max-width: 90%;
   height: 125%;
   border-radius: 3em;
+  /* margin-bottom: 3rem; */
 }
 .maple-drizzle h4{
   font-family: 'Lemon', cursive;
@@ -512,6 +516,17 @@ max-height:150px;
 .mnm img{
 max-width: 150px;
 max-height:150px;
+}
+
+.sweets{
+  padding-bottom: 0.5em;
+  font-size: 2rem;
+  padding: 1.5em 1.5em;
+  font-weight: 400;
+  color: #E26384;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
 }
 /* locations page */
 
