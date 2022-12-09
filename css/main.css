@@ -166,6 +166,10 @@ nav {
   color: #E26384;
 }
 
+.material-icons-outlined{
+  color: #EAC98A;
+}
+
 .top-pick-right{
   background-color: #fff;
   display: flex;
@@ -360,13 +364,16 @@ body{
 }
 
 .month{
+  display: grid;
+  grid-template-areas:
+  "left top-right"
+  "left bottom-right";
   padding-bottom: 0.5em;
   font-size: 4rem;
   padding: 1.5em 1.5em;
   font-weight: 400;
   color: #E26384;
   font-family: 'Philosopher';
-
 }
 /* .month-shadow {
   position: absolute;
@@ -379,13 +386,24 @@ body{
 } */
 
 .seasonal{
+  grid-area: left;
   background-color: #C1DAE1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 50%;
+  max-width: 60%;
   border-radius: 3em;
+  margin: 0 auto;
 }
+
+.donut-description {
+  grid-area: top-right;
+}
+
+.pack-buttons {
+  grid-area: bottom-right;
+}
+
 .seasonal h4{
   font-family: 'Lemon', cursive;
 }
@@ -405,17 +423,20 @@ body{
   background-color: #b9546f;
 }
 
-.maple-drizzle{
+.sweets-card{
   background-color: #C1DAE1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 90%;
-  height: 125%;
   border-radius: 3em;
   /* margin-bottom: 3rem; */
 }
-.maple-drizzle h4{
+
+.sweets-card img{
+  width: 100%;
+
+}
+.sweets-card h4{
   font-family: 'Lemon', cursive;
 }
 
@@ -431,12 +452,6 @@ max-height:150px;
 
 .cookies-n-cream{
   background-color: #ECD48C;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 90%;
-  height: 125%;
-  border-radius: 3em;
 }
 
 .cookies-n-cream h4{
@@ -447,19 +462,13 @@ max-height:150px;
   color: #000;
   font-weight: bold;
 }
-.cookies-n-cream img{
-max-width: 150px;
-max-height:150px;
+
+.cookies img{
+width: 250px;
 }
 
 .rainbow{
   background-color: #EDC0D5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 90%;
-  height: 125%;
-  border-radius: 3em;
 }
 
 .rainbow h4{
@@ -472,19 +481,12 @@ max-height:150px;
 }
 
 .rainbow img{
-max-width: 150px;
-max-height:150px;
+max-width: 250px;
 }
 
 
 .mnm{
   background-color: #AFCBB2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 90%;
-  height: 125%;
-  border-radius: 3em;
 }
 
 .mnm h4{
@@ -497,8 +499,7 @@ max-height:150px;
 }
 
 .mnm img{
-max-width: 150px;
-max-height:150px;
+max-width: 250px;
 }
 
 .sweets{
@@ -508,7 +509,7 @@ max-height:150px;
   font-weight: 400;
   color: #E26384;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
 }
 /* locations page */
