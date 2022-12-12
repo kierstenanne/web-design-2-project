@@ -180,17 +180,24 @@ nav {
   flex-direction: column;
   align-items: center;
   /* width: 25%; */
-  border-radius: 3em;
+  border-radius: 4em;
   border: solid 9px #E26384;
-  padding: 5rem;
+  /* padding: 5rem; */
   max-width: 1200px;
 }
-.top-pick h2{
-  font-size: 2rem;
+.top-pick img{
+  width: 262px;
 }
 
 .top-pick h3{
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  color: #976B52;
+}
+
+.top-pick h4{
+  font-size: 2rem;
+  color: #976B52;
+  font-weight: bold;
 }
 
 .featured-donuts{
@@ -213,7 +220,8 @@ nav {
   font-size: 1rem;
   text-align: center;
   position: relative;
-  padding-top: 6rem;
+  padding-top: 11rem;
+  margin-right: 3rem;
 }
 
 .d-card img{
@@ -522,7 +530,8 @@ height: 25%;
   padding-left: 5rem;
 }
 
-.maple-drizzle p{
+.maple p{
+  color: #C6465E;
   font-weight: bold;
 }
 
@@ -544,17 +553,21 @@ height: 25%;
   width: 250px;
 }
 
+.cookies p{
+  color: #C6465E;
+  font-weight: bold;
+}
+
 .rainbow{
   background-color: #EDC0D5;
 }
 
 .rainbow h4{
-  font-family: 'Lemon', cursive;
   text-align: center;
 }
 
 .rainbow p{
-  color: #fff;
+  color: #C6465E;
   font-weight: bold;
 }
 
@@ -567,14 +580,45 @@ height: 25%;
   background-color: #AFCBB2;
 }
 
-.mnm h4{
+.mozza{
+  background-color: #F0DDA0;
+}
+
+.mozza p{
+  color: #C6465E;
+  font-weight: bold;
+}
+
+
+.mnm p{
+  color: #C6465E;
+  font-weight: bold;
+}
+
+.chai p{
+  color: #C6465E;
+  font-weight: bold;
+}
+
+.bacon p{
+  color: #C6465E;
+  font-weight: bold;
+}
+
+.pumpkin p{
+  color: #C6465E;
+  font-weight: bold;
+}
+
+
+/* .mnm h4{
   font-family: 'Lemon', cursive;
 }
 
 .mnm p{
   color: #fff;
   font-weight: bold;
-}
+} */
 
 .mnm img{
   max-width: 250px;
