@@ -187,6 +187,7 @@ nav {
 }
 .top-pick img{
   width: 262px;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
 .top-pick h3{
@@ -222,11 +223,13 @@ nav {
   position: relative;
   padding-top: 11rem;
   margin-right: 3rem;
+  /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); */
 }
 
 .d-card img{
   position: absolute;
   top: -10%;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
 .d-card p{
@@ -581,7 +584,7 @@ height: 25%;
 }
 
 .mozza{
-  background-color: #F0DDA0;
+  background-color: #FCE3B2;
 }
 
 .mozza p{
@@ -595,6 +598,14 @@ height: 25%;
   font-weight: bold;
 }
 
+.chai{
+  background-color: #EBD8FF;
+}
+
+.bacon{
+  background-color: #E3C1A2;
+}
+
 .chai p{
   color: #C6465E;
   font-weight: bold;
@@ -603,6 +614,10 @@ height: 25%;
 .bacon p{
   color: #C6465E;
   font-weight: bold;
+}
+
+.pumpkin{
+  background-color: #F8C6B0;
 }
 
 .pumpkin p{
