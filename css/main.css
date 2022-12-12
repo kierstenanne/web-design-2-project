@@ -210,7 +210,7 @@ nav {
   border-radius: 3em;
   padding: 1rem;
   min-width: 16rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   position: relative;
   padding-top: 6rem;
@@ -229,8 +229,18 @@ nav {
   background-color: #F091AA;
 }
 
+.pink h3{
+  color: #B1153E;
+  font-size: 1.5rem;
+}
+
 .orange{
   background-color: #FDBB83;
+}
+
+.orange h3{
+  color: #B6631D;
+  font-size: 1.5rem;
 }
 
 .blue{
@@ -239,7 +249,8 @@ nav {
 
 .blue h3{
   background-color: #AFDEE9;
-  color: #F5f5f5;
+  color: #4F8D9C;
+  font-size: 1.5rem;
 }
 
 .featured-wrapper{
@@ -293,6 +304,17 @@ footer{
   text-align: center;
   background-color: #f5f5f5;
 }
+
+.insta h3{
+  color: #C6465E;
+}
+
+.insta h4{
+  color: #000;
+  font-family: 'Philosopher';
+  font-size: 1.5rem;
+}
+
 
 /* .instagram {
 display: grid;
@@ -401,17 +423,15 @@ body{
   text-decoration: underline;
 }
 
-.banner {
-  background: #FFEFF3;
+.menu-banner {
+  background: #FEDEE5;
   position: relative;
 }
 
 .banner img {
   width: 100%;
 }
-{
-  background-color: #FFEFF3;
-}
+
 
 .month{
   display: grid;
@@ -419,12 +439,16 @@ body{
   "left top-right"
   "left bottom-right";
   padding-bottom: 0.5em;
-  font-size: 4rem;
+  font-size: 2.5rem;
   padding: 1.5em 1.5em;
   font-weight: 400;
   color: #E26384;
   font-family: 'Philosopher';
+  text-align: center;
 }
+
+
+
 /* .month-shadow {
 position: absolute;
 background-color: #C1DAE1;
@@ -446,12 +470,15 @@ height: 25%;
   margin: 0 auto;
 }
 
-.donut-description {
+/* .donut-description {
   grid-area: top-right;
-}
+} */
 
 .pack-buttons {
   grid-area: bottom-right;
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
 }
 
 .seasonal h4{
@@ -490,8 +517,12 @@ height: 25%;
   font-family: 'Lemon', cursive;
 }
 
+.menu-header{
+  font-size: 2.5rem;
+  padding-left: 5rem;
+}
+
 .maple-drizzle p{
-  color: #000;
   font-weight: bold;
 }
 
@@ -508,10 +539,6 @@ height: 25%;
   font-family: 'Lemon', cursive;
 }
 
-.cookies-n-cream p{
-  color: #000;
-  font-weight: bold;
-}
 
 .cookies img{
   width: 250px;
@@ -523,10 +550,11 @@ height: 25%;
 
 .rainbow h4{
   font-family: 'Lemon', cursive;
+  text-align: center;
 }
 
 .rainbow p{
-  color: #000;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -544,7 +572,7 @@ height: 25%;
 }
 
 .mnm p{
-  color: #000;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -591,9 +619,10 @@ height: 25%;
   text-decoration: underline;
 }
 
-.banner {
+.locations-banner {
   /* background: #E89EAF; */
   position: relative;
+  background-color: #FEDEE5;
 }
 
 .banner img {
@@ -661,7 +690,7 @@ background-color: #b9546f;
 }
 
 .donut-description p{
-  font-size: 1.5rem;
+  font-size: 2.3rem;
   color: #F091AA;
 }
 
