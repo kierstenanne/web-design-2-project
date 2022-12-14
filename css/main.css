@@ -209,6 +209,7 @@ nav {
 .top-donuts{
   display: flex;
   padding: 6rem 6rem;
+  max-width: 1600px;
 }
 
 .d-card {
@@ -705,7 +706,7 @@ height: 25%;
 }
 
 .contact-us{
-  width: 60%;
+  width: 100%;
   height:auto;
   background-color: #FDC3D2;
   right: 5em;
@@ -733,6 +734,25 @@ height: 25%;
   text-align: center;
 }
 
+.contact-us{
+
+}
+
+label {
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+input{
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid 3px #E26384;
+}
+
+.form-section{
+  background-color: #FDC3D2;
+}
 
 .donut-month{
   font-size: 4rem;
@@ -770,7 +790,7 @@ input.nav-toggle {
   display: none;
 }
 
-display: block;
+/* display: block;
 }
 label.nav-toggle-label {
   display: block;
@@ -778,7 +798,7 @@ label.nav-toggle-label {
 
 @media screen and (min-width: 768px) {
   input.nav-toggle {
-    display: none;
+    display: none; */
   }
   label.nav-toggle-label {
     display: none;
@@ -786,3 +806,25 @@ label.nav-toggle-label {
   nav {
     display: block;
   }
+
+  @media only screen and (max-width: 1425px) and (min-width:400px){
+
+  .sweets{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 7rem;
+  }
+  .savoury{
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+/* min width= 400px max width= 650px */
+@media only screen and (max-width: 25em) {
+
+.sweets{
+  max-width: 50px;
+  grid-template-columns: 1fr;
+}
+
+}
