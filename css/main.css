@@ -231,6 +231,7 @@ nav {
   position: absolute;
   top: -10%;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  max-width: 300px;
 }
 
 .d-card p{
