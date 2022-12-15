@@ -690,13 +690,6 @@ height: 25%;
   width: 100%;
 }
 
-.locations{
-  padding-bottom: 0.5em;
-  font-size: 4rem;
-  padding: 1.5em 1.5em;
-  font-weight: 400;
-  color: #E26384;
-}
 
 .contact h2{
   color: #E06384;
@@ -725,12 +718,12 @@ height: 25%;
 
 .locations{
   font-size: 1.5rem;
-  margin-left: 5rem;
   text-align: center;
+  color: #E26384;
 }
 
 .locations h2{
-  font-size: 3.5rem;
+  font-size: 5rem;
   color: #E26384;
   text-align: center;
 }
