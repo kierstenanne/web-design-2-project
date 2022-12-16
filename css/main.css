@@ -801,7 +801,7 @@ label.nav-toggle-label {
     display: block;
   }
 
-  @media only screen and (max-width: 1425px) and (min-width:450px){
+  @media only screen and (max-width: 1425px) and (min-width:828px){
 
   .sweets{
     grid-template-columns: 1fr 1fr;
@@ -814,7 +814,7 @@ label.nav-toggle-label {
 
 }
 /* min width= 400px max width= 650px */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 828px) {
 
   .description{
     font-size: 1rem;
@@ -827,6 +827,10 @@ label.nav-toggle-label {
 .sidenote p{
   font-size: 12px;
 }
+.banner-body a{
+
+}
+
 .sweets{
   max-width: 50px;
   grid-template-columns: 1fr;
