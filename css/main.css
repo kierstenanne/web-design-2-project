@@ -801,7 +801,7 @@ label.nav-toggle-label {
     display: block;
   }
 
-  @media only screen and (max-width: 1425px) and (min-width:400px){
+  @media only screen and (max-width: 1425px) and (min-width:450px){
 
   .sweets{
     grid-template-columns: 1fr 1fr;
@@ -814,11 +814,36 @@ label.nav-toggle-label {
 
 }
 /* min width= 400px max width= 650px */
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 450px) {
 
+  .description{
+    font-size: 1rem;
+  }
+
+  .sidenote h3{
+    font-size: 1rem;
+  }
+
+.sidenote p{
+  font-size: 12px;
+}
 .sweets{
   max-width: 50px;
   grid-template-columns: 1fr;
+  font-size: 1rem;
+  padding-left: 6.5rem;
+}
+.sweets-card img{
+  width: 150px;
+  height:150px;
+}
+
+.savoury{
+
+}
+.add-button{
+padding: 7px 7px;
+font-size: 2rem;
 }
 
 }
